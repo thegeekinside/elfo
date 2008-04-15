@@ -9,7 +9,7 @@
  */
 // TODO: Se le podra enviar un directorio.
 // TODO: Refactory (Que significa esto?)
-// TODO: Generar unidades de prueba
+// TODO: Generar unidades de prueba, hay que definir con que herramienta.
 // TODO: Dividir la funcionalidad de Format
 // TODO: Aplicar estandares de GNU?
 // TODO: Usar gettext
