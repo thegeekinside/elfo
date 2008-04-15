@@ -6,6 +6,7 @@
 
   Created by Julio Carlos Sanchez Ortega (thegeek@thegeekinside.net) on 2007-02-01.
   Copyright 2007, 2008
+*/
 
 #ifndef _ELFO_H_
 #define _ELFO_H_
@@ -34,8 +35,6 @@
 
 #define UNIX_FORMAT     "unix"
 #define DOS_FORMAT      "dos"
-
-
 
 #define DEBUG    TRUE
 

@@ -15,7 +15,6 @@
 // TODO: Usar gettext
 
 #include "elfo.h"
-#include "messages.h"
 
 // Save de file info
 struct stat s_buf;
