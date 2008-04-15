@@ -1,0 +1,46 @@
+ ========================
+ = End of Line FOrmatter =
+ ========================
+ 
+ The End of Line FOrmatter (elfo), is a little program intended to convert the
+ EOL from DOS to unix and viceversa, is a dos2unix/unix2dos but in a single 
+ tool.
+ 
+ Compile and Install
+ -------------------
+ I use autotools for the development process and for package the program, then 
+ for compile and install is very easy, follow the old rite:
+ 
+ 1) Unpack the tarball 
+    tar -xzvf elfo-X.X.X.tar.gz
+ 2) cd elfo-X.X.X
+ 3) ./configure
+ 4) make
+ 5) sudo make install
+ 
+ This install the tool in /usr/local/bin, if you want install in another place 
+ use the --prefix option when you configure the package.
+ 
+ You can compile the package in a windows environment with MingW32, any way 
+ there are a binary distribution for windows in the site.
+ 
+ Usage
+ -----
+ This program support short and long options to fomat the files, here is some 
+ usage examples:
+ 
+ To convert a unix file to DOS EOL format type the next line:
+
+ elfo --t=dos --file=UnixFile
+ 
+ Another way to done this because the format to convert is DOS by default, it 
+ would be:
+ 
+ elfo --file=UnixFile
+ 
+ To convert a DOS file to unix EOL format type the next line:
+
+ elfo --t=unix --file=DOSFile
+ 
+ Julio Carlos Sanchez Ortega
+ Tearlach Software
