@@ -13,6 +13,7 @@
 // TODO: Dividir la funcionalidad de Format
 // TODO: Aplicar estandares de GNU?
 // TODO: Usar gettext
+// TODO: Just for display difs
 
 #include "elfo.h"
 
