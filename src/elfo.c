@@ -1,11 +1,13 @@
-/*
-   elfo.c
-   elfo
+/**
+   @file elfo.c
+   @brief Program to change the EOL Format from unix, mac, dos to dos, unix, mac.
 
-   Program to change the EOL Format from unix, mac, dos to dos, unix, mac.
-
-   Created by Julio Carlos Sanchez Ortega (thegeek@thegeekinside.net) on 2007-02-01.
+   @author Julio Carlos Sanchez Ortega <thegeek@thegeekinside.net>
+   @date 2007-02-01.
+   @version 0.6.0.
+   
    Copyright 2007, 2008 Tearlach Software. All rights reserved.
+
  */
 // TODO: Se le podra enviar un directorio.
 // TODO: Refactory (Que significa esto?)
@@ -99,7 +101,7 @@ int main(int argc, char *argv[])
 }
 
 /**
- * Initialize the options Structure
+ * Initialize the options Structure.
  */
 void Initialize(struct options *options)
 {
@@ -110,7 +112,7 @@ void Initialize(struct options *options)
 }
 
 /**
- * Format
+ * Format.
  *
  * Format with the correct EOL.
  */
@@ -210,7 +212,7 @@ int Format(struct options *options)
 }
 
 /**
- * Print the usage screen
+ * Print the usage screen.
  */
 void Usage()
 {
@@ -223,6 +225,9 @@ void Usage()
     printf("\t-h\t--help\t\tShow this message\n");
 }
 
+/**
+ * Print the elfo version.
+ */
 void PrintVersion()
 {
     printf("elfo %i.%i.%i%s by Julio Carlos Sanchez Ortega\n", MAJOR_VERSION, MINOR_VERSION, PATCH_VERSION, PRERELEASE);
@@ -230,7 +235,7 @@ void PrintVersion()
 }
 
 /**
- * Print the help screen
+ * Print the help screen.
  */
 void Help()
 {
