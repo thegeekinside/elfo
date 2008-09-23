@@ -12,3 +12,4 @@ src/Makefile
 src/Makefile.in
 src/elfo
 src/elfo.o
+tags
